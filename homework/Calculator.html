@@ -6,24 +6,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>계산기 과제</title>
         <style>
-            * {
-                font-size: 12px;
-            }
             table {
                 border-radius: 5px;
             }
             .display {
                 border-radius: 5px;
-                background-color: #70C738; width: 230px; height: 50px; line-height: 50px; vertical-align: middle;
+                background-color: #70C738; width: 410px; height: 50px;
             }
             .btn1 {
-                background-color: #373737; color: white; width: 54px; height: 25px; border: 1px solid #373737; border-radius: 5px;
+                background-color: #373737; color: white; width: 100px; height: 50px; border: 1px solid #373737; border-radius: 5px; font-size: 1.5em;
             }
             .btn2 {
-                background-color: #FA960A; color: white; width: 53px; height: 25px; border: 1px solid #FA960A; border-radius: 5px;
+                background-color: #FA960A; color: white; width: 100px; height: 50px; border: 1px solid #FA960A; border-radius: 5px; font-size: 1.5em;
             }
             .btn3 {
-                background-color: #7B7B7B; color: white; width: 112px; height: 25px; border: 1px solid #7B7B7B; border-radius: 5px;
+                background-color: #7B7B7B; color: white; width: 204px; height: 50px; border: 1px solid #7B7B7B; border-radius: 5px; font-size: 1.5em;
+            }
+            #dcd {
+                background-color:#70c738; color:#373737; font-size: 40px; font-weight: bold;
             }
         </style>
     </head>
@@ -34,13 +34,11 @@
 
         <h2>계산기 만들기 과제</h2>
 
-        <table style="background-color: #E4E3E2; height: 210px;">
+        <table style="background-color: #E4E3E2; height: 210px;" align="center">
             <tr>
-                <td style="border: 1px; height: 50px; text-align: right;">
-                    <div class="display" style="">
-                        <span style="font-size: 18px; font-weight: bold;">
-                            123+654
-                        </span>
+                <td colspan="4">
+                    <div class="display">
+                        <div id="dcd">123+654</div>
                     </div>
                 </td>
             </tr>
