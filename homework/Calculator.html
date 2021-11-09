@@ -7,23 +7,23 @@
         <title>계산기 과제</title>
         <style>
             table {
-                border-radius: 5px;
-            }
-            .display {
-                border-radius: 5px;
-                background-color: #70C738; width: 410px; height: 50px;
+                border-radius: 10px; border: 1px solid #c7c7c7; background-color: #E4E3E2;
             }
             .btn1 {
-                background-color: #373737; color: white; width: 100px; height: 50px; border: 1px solid #373737; border-radius: 5px; font-size: 1.5em;
+                background-color: #373737; color: white; width: 100px; 
+                height: 50px; border: 1px solid #373737; border-radius: 10px; font-size: 1.5em;
             }
             .btn2 {
-                background-color: #FA960A; color: white; width: 100px; height: 50px; border: 1px solid #FA960A; border-radius: 5px; font-size: 1.5em;
+                background-color: #FA960A; color: white; width: 100px; 
+                height: 50px; border: 1px solid #FA960A; border-radius: 10px; font-size: 1.5em;
             }
             .btn3 {
-                background-color: #7B7B7B; color: white; width: 204px; height: 50px; border: 1px solid #7B7B7B; border-radius: 5px; font-size: 1.5em;
+                background-color: #7B7B7B; color: white; width: 204px; 
+                height: 50px; border: 1px solid #7B7B7B; border-radius: 10px; font-size: 1.5em;
             }
             #dcd {
-                background-color:#70c738; color:#373737; font-size: 40px; font-weight: bold;
+                background-color:#70c738; color:#373737; font-size: 40px; font-weight: bold; border-radius: 10px;
+                text-align: right; padding: 10px;
             }
         </style>
     </head>
@@ -34,51 +34,45 @@
 
         <h2>계산기 만들기 과제</h2>
 
-        <table style="background-color: #E4E3E2; height: 210px;" align="center">
+        <table align="center">
             <tr>
                 <td colspan="4">
-                    <div class="display">
+                    <div style="width: 410px;">
                         <div id="dcd">123+654</div>
                     </div>
                 </td>
             </tr>
             <tr>
-                <td>
+                <td colspan="2">
                     <button type="button" class="btn3">BackSpace</button>
-                    <button type="button" class="btn3">c</button>
+                </td>
+                <td colspan="2">
+                    <button type="button" class="btn3">C</button>
                 </td>
             </tr>
             <tr>
-                <td>
-                    <button type="button" class="btn1">1</button>
-                    <button type="button" class="btn1">2</button>
-                    <button type="button" class="btn1">3</button>
-                    <button type="button" class="btn2">/</button>
-                </td>
+                <td><button type="button" class="btn1">1</button></td>
+                <td><button type="button" class="btn1">2</button></td>
+                <td><button type="button" class="btn1">3</button></td>
+                <td><button type="button" class="btn2">/</button></td>
             </tr>
             <tr>
-                <td>
-                    <button type="button" class="btn1">4</button>
-                    <button type="button" class="btn1">5</button>
-                    <button type="button" class="btn1">6</button>
-                    <button type="button" class="btn2">x</button>
-                </td>
+                <td><button type="button" class="btn1">4</button></td>
+                <td><button type="button" class="btn1">5</button></td>
+                <td><button type="button" class="btn1">6</button></td>
+                <td><button type="button" class="btn2">x</button></td>
             </tr>
             <tr>
-                <td>
-                    <button type="button" class="btn1">7</button>
-                    <button type="button" class="btn1">8</button>
-                    <button type="button" class="btn1">9</button>
-                    <button type="button" class="btn2">+</button>
-                </td>
+                <td><button type="button" class="btn1">7</button></td>
+                <td><button type="button" class="btn1">8</button></td>
+                <td><button type="button" class="btn1">9</button></td>
+                <td><button type="button" class="btn2">+</button></td>
             </tr>
             <tr>
-                <td>
-                    <button type="button" class="btn1">=</button>
-                    <button type="button" class="btn1">0</button>
-                    <button type="button" class="btn1">.</button>
-                    <button type="button" class="btn2">-</button>
-                </td>
+                <td><button type="button" class="btn1">=</button></td>
+                <td><button type="button" class="btn1">0</button></td>
+                <td><button type="button" class="btn1">.</button></td>
+                <td><button type="button" class="btn2">-</button></td>
             </tr>
         </table>
     </body>
